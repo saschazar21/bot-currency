@@ -27,4 +27,8 @@ const prepare = (params) => {
 };
 
 module.exports = params => prepare(params)
-.then(urlString => request(urlString));
+.then(urlString => request(urlString))
+.then(value => Object({
+  amount: value,
+  currency: params['compare-currency'],
+}));
