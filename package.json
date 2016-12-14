@@ -1,0 +1,41 @@
+{
+  "name": "bot-currency",
+  "version": "1.0.0",
+  "description": "A bot for retrieving current exchange rates.",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=debug node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saschazar21/bot-currency.git"
+  },
+  "keywords": [
+    "currency",
+    "bot",
+    "node",
+    "api"
+  ],
+  "author": "Sascha Zarhuber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saschazar21/bot-currency/issues"
+  },
+  "homepage": "https://github.com/saschazar21/bot-currency#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "debug": "^2.4.1",
+    "dotenv": "^2.0.0",
+    "eslint": "^3.12.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
